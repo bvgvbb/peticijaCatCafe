@@ -1,0 +1,120 @@
+h1 {
+	color: #834c69;
+	font-family: 'Pacifico', cursive;
+	font-size: 60px;
+	padding-bottom: 120px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+p {
+	color: #33313b;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+h2 {
+	color: #3c4f65;
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+}
+
+a {
+	color: #e6f5ff;
+	text-decoration: none;
+	background-color: #33313b;
+}
+
+a:hover {
+	color: #e6f5ff;
+	background-color: #3c4f65
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#banner {
+	text-align: center;
+/*
+	background-image: url(https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+*/
+	padding: 100px;
+	background-image: url(https://images.unsplash.com/photo-1488015795646-7e22a773d72a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80);
+	background-size: cover;
+}
+
+/*
+  for changing just the font color in the banner there are two options: 
+	* add a class (light in my case), or 
+	* style paragraphs inside banner differently (first option here);
+#banner p {
+	color: #e6f5ff;	
+}
+*/
+
+.light {
+	color: #e6f5ff;	
+}
+
+.vlki {
+	font-size: 30px;
+	font-weight: bold;
+	background-color: #D3BC7A;
+}
+.center {
+	text-align: center;
+ }
+
+.section h2 {
+	background-color: #e6f5ff;
+}
+
+#footer {
+	color: #e6f5ff;	
+	background-color: #3c4f65;
+/*
+	font-size: 15px;
+*/
+}
+
+#footer a {
+	background-color: #834c69;
+}
+
+#footer a:hover {
+	color: #834c69;
+	background-color: #e6f5ff;
+}
+
+.fab {
+	color: #e6f5ff;
+	background-color: #834c69;
+	padding: 5px;
+}
+
+.fab:hover {
+	color: #834c69;
+	background-color: #e6f5ff;
+	padding: 5px;
+}
+
+.fas {
+	color: #e6f5ff;
+	background-color: #834c69;
+	padding: 5px;
+}
+
+.fas:hover {
+	color: #834c69;
+	background-color: #e6f5ff;
+	padding: 5px;
+}
+
+.mojbtn {
+	background-color: #834c69;
+	font-size: 50px;
+	border-radius: 12px;
+	text-align: center;
+}
